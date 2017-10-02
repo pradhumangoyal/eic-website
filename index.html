@@ -469,15 +469,15 @@
                 function initMap()
                 {
                 
-                    map = new google.maps.Map(document.getElementById('map'), {center:{lat:30.7680, lng:76.7827}, zoom:18});
-                    var tribeca = {lat:30.7680, lng:76.7827};
+                    map = new google.maps.Map(document.getElementById('map'), {center:{lat:30.766984, lng:76.787383}, zoom:18});
+                    var tribeca = {lat:30.766984, lng:76.787383};
                     var marker = new google.maps.Marker({
                         position : tribeca,
                         map : map, 
                         title : 'PEC'
                     });
                     var infowindow = new google.maps.InfoWindow({
-                        content:'Hi! Welcome to PEC University of TEchnology, Chandigarh'
+                        content:'Hi! Welcome to EIC, PEC, Chandigarh'
                     });
                     marker.addListener('click', function(){
                     infowindow.open(map, marker);
