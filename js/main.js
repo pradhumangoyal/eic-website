@@ -107,7 +107,7 @@ $(document).ready(function(){
             $(".navbar-brand a").css("color","#fff");
             $("#navigation").removeClass("animated-header");
         } else {
-            $(".navbar-brand a").css("color","inherit");
+            $(".navbar-brand a").css("color","#fff");
             $("#navigation").addClass("animated-header");
         }
     });
