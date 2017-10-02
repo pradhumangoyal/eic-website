@@ -579,21 +579,11 @@ h1.navbar-brand {
     width: 85px;
     line-height: 101px;
 
-    -webkit-transform: rotate(47deg);
-       -moz-transform: rotate(47deg);
-        -ms-transform: rotate(47deg);
-         -o-transform: rotate(47deg);
-            transform: rotate(47deg);
-
-    -webkit-transition: all 0.3s ease 0s;
-       -moz-transition: all 0.3s ease 0s;
-        -ms-transition: all 0.3s ease 0s;
-         -o-transition: all 0.3s ease 0s;
-            transition: all 0.3s ease 0s;
+    
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    
     margin-bottom: 20px;
     color: #009ee3;
 }
